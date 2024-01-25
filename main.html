@@ -22,16 +22,19 @@
 			<input 
 				type="text" 
 				required 
-				placeholder="Email address or phone number"/>
+				id="email"
+				placeholder="Email address or phone number"
+			/>
 			<input 
 				type="password" 
 				required
-				placeholder="Password"/>
-
+				id="password"
+				placeholder="Password"
+			/>
 			<button type="submit">Log in</button>
 		</form>
-		<p><a>Forgotten account?</a></p>
-		<button onclick="window.location.href = '/register'">Create new account</button>
+		<p><a href="/recover/initiate">Forgotten account?</a></p>
+		<button onclick="window.location.href = '/reg'">Create new account</button>
 	</div>
 	</main>
     <script type="text/javascript" src="./script.js">
